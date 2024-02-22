@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'GAD';
+  src:  url('../fonts/GAD.eot');
+  src:  url('../fonts/GAD.eot') format('embedded-opentype'),
+    url('../fonts/GAD.ttf') format('truetype'),
+    url('../fonts/GAD.woff') format('woff'),
+    url('../fonts/GAD.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icons-"], [class*=" icons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'GAD' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons-icon-calendar:before {
+  content: "\e900";
+}
+.icons-icon-bug:before {
+  content: "\e914";
+}
+.icons-icon-organisation:before {
+  content: "\e915";
+}
+.icons-icon-retrocedor:before {
+  content: "\e933";
+}
+.icons-icon-consultation:before {
+  content: "\e934";
+}
+.icons-icon-parameter:before {
+  content: "\e935";
+}
+.icons-icon-table-th:before {
+  content: "\e936";
+}
+.icons-icon-box:before {
+  content: "\e937";
+}
+.icons-icon-application:before {
+  content: "\e938";
+}
+.icons-icon-user:before {
+  content: "\e939";
+}
+.icons-icon-parameter-alt:before {
+  content: "\e93a";
+}
+.icons-icon-logout:before {
+  content: "\e93c";
+}
+.icons-icon-home:before {
+  content: "\e93e";
+}
+.icons-icon-file-alt:before {
+  content: "\e940";
+}
+.icons-icon-briefcase:before {
+  content: "\e941";
+}
+.icons-icon-donuts-chart:before {
+  content: "\e942";
+}
+.icons-icon-file:before {
+  content: "\e943";
+}
+.icons-icon-globe:before {
+  content: "\e944";
+}
+.icons-icon-files:before {
+  content: "\e945";
+}
+.icons-icon-payment:before {
+  content: "\e946";
+}
+.icons-icon-upload:before {
+  content: "\e947";
+}
+.icons-icon-options:before {
+  content: "\e948";
+}
+.icons-icon-search:before {
+  content: "\e949";
+}
+.icons-icon-refresh:before {
+  content: "\e94a";
+}
+.icons-icon-check:before {
+  content: "\e94b";
+}
+.icons-icon-plus:before {
+  content: "\e94c";
+}
+.icons-icon-print:before {
+  content: "\e94d";
+}
+.icons-icon-edit:before {
+  content: "\e94e";
+}
+.icons-icon-trash:before {
+  content: "\e94f";
+}
+.icons-icon-folders:before {
+  content: "\e950";
+}
+.icons-icon-share:before {
+  content: "\e953";
+}
+.icons-icon-edit-alt:before {
+  content: "\e955";
+}
+.icons-icon-download:before {
+  content: "\e95a";
+}
+.icons-icon-view:before {
+  content: "\e95f";
+}
+.icons-icon-database:before {
+  content: "\e962";
+}
+.icons-icon-view-param:before {
+  content: "\e965";
+}
+.icons-icon-file-2:before {
+  content: "\e966";
+}

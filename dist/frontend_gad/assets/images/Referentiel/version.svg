@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #283456;
+      }
+
+      .cls-2 {
+        font-family: Ravie, Ravie;
+        font-size: 39.64px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m73.75,123.06c-28.43,0-51.56-23.13-51.56-51.56s23.13-51.56,51.56-51.56,51.56,23.13,51.56,51.56-23.13,51.56-51.56,51.56Zm0-94.11c-23.46,0-42.56,19.09-42.56,42.56s19.09,42.56,42.56,42.56,42.56-19.09,42.56-42.56-19.09-42.56-42.56-42.56Z"/>
+  <text class="cls-2" transform="translate(62.82 86.32)"><tspan x="0" y="0">i</tspan></text>
+</svg>

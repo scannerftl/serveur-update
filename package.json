@@ -1,0 +1,38 @@
+{
+  "name": "gad",
+  "version": "1.0.0",
+  "description": "Gestion des activités DSI",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish always",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MEGATIM SARL",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.0.1",
+    "electron-builder": "^24.12.0"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.8"
+  },
+  "build": {
+    "appId": "com.megatim.gad",
+    "productName": "gad",
+    "icon": "electron_images/logo_GAD.ico",
+    "target": "NSIS",
+    "directories": {
+      "output": "build"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    },
+    "win": {
+      "publish": [
+        "github"
+      ]
+    }
+  }
+}

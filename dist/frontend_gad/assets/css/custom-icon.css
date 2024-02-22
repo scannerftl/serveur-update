@@ -1,0 +1,80 @@
+
+.c-icon-home{
+    background-image: url("../images/Icones/Icones_lat-01.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.c-icon-envelope-open{
+    background-image: url("../images/Icones/Icones_lat-02.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.c-icon-bell{
+    background-image: url("../images/Icones/Icones_lat-03.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 18px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+.c-icon-tools{
+    background-image: url("../images/Icones/Icones_lat-04.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 18px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+.c-icon-cog{
+    background-image: url("../images/Icones/Icones_lat-05.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 18px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+.c-icon-parc-info{
+  background-image: url("../images/Icones/Icones_lat-06.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.c-icon-organisation{
+  background-image: url("../images/Icones/Icones_lat-08.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.c-icon-incident{
+  background-image: url("../images/Icones/Icones_lat-07.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
