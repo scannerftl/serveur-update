@@ -29,10 +29,13 @@
       "allowToChangeInstallationDirectory": true,
       "oneClick": false
     },
-    "win": {
-      "publish": [
-        "github"
-      ]
+    "publish":{
+      "provider":"github",
+      "owner":"scannerftl",
+      "vPrefixedTagName":true,
+      "releaseType":"draft",
+      "publishAutoUpdate": true,
+      "token":"r3096aWWhPs0APXABqKCowHg"
     }
   }
 }
