@@ -31,7 +31,10 @@
     },
     "publish":{
       "provider":"github",
-      "owner":"scannerftl"
+      "owner":"scannerftl",
+      "publishAutoUpdate": true,
+      "vPrefixedTagName":true,
+      "releaseType":"draft"
     }
   }
 }
