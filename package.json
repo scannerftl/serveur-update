@@ -35,7 +35,11 @@
       "vPrefixedTagName":true,
       "releaseType":"draft",
       "publishAutoUpdate": true,
-      "token":"r3096aWWhPs0APXABqKCowHg"
+      "token":"r3096aWWhPs0APXABqKCowHg",
+      "private":false,
+      "channel":"latest",
+      "host":"github.com",
+      "repo":"serveur-update"
     }
   }
 }
