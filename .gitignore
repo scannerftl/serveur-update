@@ -31,7 +31,7 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
-# Miscellaneous
+# Miscellaneous "token":"r3096aWWhPs0APXABqKCowHg",
 /.angular/cache
 .sass-cache/
 /connect.lock

@@ -7,9 +7,7 @@ const path = require('path');
 // const server = 'https://hazel-nine-mu.vercel.app';
 // const link = `${server}/update/${process.platform}/${app.getVersion()}`;
 // autoUpdater.setFeedURL(link);
-
-// run this as early in the main process as possible
-// if (require('electron-squirrel-startup')) app.quit();
+autoUpdater.checkForUpdatesAndNotify();
 
 // interface graphique 
 function onReady () {     
@@ -26,7 +24,13 @@ function onReady () {
 	}))   
 }
 
-autoUpdater.checkForUpdatesAndNotify();
+/**?
+      "vPrefixedTagName":true,
+      "releaseType":"draft",
+      "publishAutoUpdate": true,
+      "private":false,
+      "channel":"latest"
+ */
 
 // Logique de mise à joure automatique 
 // setInterval(() => {
