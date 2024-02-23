@@ -8,27 +8,28 @@ const path = require('path');
 // autoUpdater.setFeedURL(link);
 
 // Logique de mise à joure automatique 
-setInterval(() => {
-	autoUpdater.checkForUpdatesAndNotify();
-  }, 60000)
-autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
-	const dialogOpts = {
-	  type: 'info',
-	  buttons: ['Restart', 'Later'],
-	  title: 'Application Update',
-	  message: process.platform === 'win32' ? releaseNotes : nomrelease,
-	  détail:
-		'Une nouvelle version a été téléchargée. Redémarrez l\'application pour appliquer les mises à jour.'
-	}
-	dialog.showMessageBox(dialogOpts).then((returnValue) => {
-	  if (returnValue.response === 0) autoUpdater.quitAndInstall()
-	})
- })
-autoUpdater.on('error', (message) => {
-	console.error('Un problème est survenu lors de la mise à jour de l\'application ')
-	console.error(message)
-	dialog.showMessageBox('Un problème est survenu lors de la mise à jour de l\'application:  '+ message)
-})
+autoUpdater.checkForUpdatesAndNotify();
+// setInterval(() => {
+// 	autoUpdater.checkForUpdatesAndNotify();
+//   }, 60000)
+// autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
+// 	const dialogOpts = {
+// 	  type: 'info',
+// 	  buttons: ['Restart', 'Later'],
+// 	  title: 'Application Update',
+// 	  message: process.platform === 'win32' ? releaseNotes : nomrelease,
+// 	  détail:
+// 		'Une nouvelle version a été téléchargée. Redémarrez l\'application pour appliquer les mises à jour.'
+// 	}
+// 	dialog.showMessageBox(dialogOpts).then((returnValue) => {
+// 	  if (returnValue.response === 0) autoUpdater.quitAndInstall()
+// 	})
+//  })
+// autoUpdater.on('error', (message) => {
+// 	console.error('Un problème est survenu lors de la mise à jour de l\'application ')
+// 	console.error(message)
+// 	dialog.showMessageBox('Un problème est survenu lors de la mise à jour de l\'application:  '+ message)
+// })
 
 // interface graphique 
 function onReady() {
