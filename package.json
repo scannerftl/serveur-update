@@ -1,7 +1,7 @@
 {
   "name": "gad",
-  "version": "1.0.0",
-  "description": "Gestion des activités DSI",
+  "version": "1.0.1",
+  "description": "Gestion Activités DSI",
   "main": "index.js",
   "scripts": {
     "start": "electron .",

@@ -7,7 +7,11 @@ const path = require('path');
 // const server = 'https://hazel-nine-mu.vercel.app';
 // const link = `${server}/update/${process.platform}/${app.getVersion()}`;
 // autoUpdater.setFeedURL(link);
-autoUpdater.checkForUpdatesAndNotify();
+// Logique de mise à joure automatique 
+setInterval(() => {
+	// autoUpdater.checkForUpdates()
+	autoUpdater.checkForUpdatesAndNotify();
+  }, 60000)
 
 // interface graphique 
 function onReady () {     
@@ -24,39 +28,26 @@ function onReady () {
 	}))   
 }
 
-/**?
-      "vPrefixedTagName":true,
-      "releaseType":"draft",
-      "publishAutoUpdate": true,
-      "private":false,
-      "channel":"latest"
- */
 
-// Logique de mise à joure automatique 
-// setInterval(() => {
-// 	autoUpdater.checkForUpdates()
-//   }, 60000)
-
-// autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
-// 	const dialogOpts = {
-// 	  type: 'info',
-// 	  buttons: ['Restart', 'Later'],
-// 	  title: 'Application Update',
-// 	  message: process.platform === 'win32' ? releaseNotes : nomrelease,
-// 	  détail:
-// 		'Une nouvelle version a été téléchargée. Redémarrez l\'application pour appliquer les mises à jour.'
-// 	}
+autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
+	const dialogOpts = {
+	  type: 'info',
+	  buttons: ['Restart', 'Later'],
+	  title: 'Application Update',
+	  message: process.platform === 'win32' ? releaseNotes : nomrelease,
+	  détail:
+		'Une nouvelle version a été téléchargée. Redémarrez l\'application pour appliquer les mises à jour.'
+	}
   
-// 	dialog.showMessageBox(dialogOpts).then((returnValue) => {
-// 	  if (returnValue.response === 0) autoUpdater.quitAndInstall()
-// 	})
-//   })
+	dialog.showMessageBox(dialogOpts).then((returnValue) => {
+	  if (returnValue.response === 0) autoUpdater.quitAndInstall()
+	})
+  })
 
-// autoUpdater.on('error', (message) => {
-// 	console.error('There was a problem updating the application ' + link)
-// 	console.error(message)
-// 	dialog.showMessageBox(message)
-//   })
+autoUpdater.on('error', (message) => {
+	console.error('There was a problem updating the application ')
+	console.error(message)
+  })
 
   // lancer l'application 
 app.on('ready', onReady);
