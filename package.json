@@ -1,6 +1,6 @@
 {
   "name": "gad",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Gestion Activités DSI",
   "main": "index.js",
   "scripts": {
