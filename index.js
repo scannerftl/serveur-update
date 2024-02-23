@@ -37,7 +37,7 @@ function onReady() {
 		height: 6000,
 		icon: 'electron_images/logo_GAD.ico'
 	})
-	// win.setMenuBarVisibility(false)
+	win.setMenuBarVisibility(false)
 	win.loadURL(url.format({
 		pathname: path.join(__dirname, 'dist/frontend_gad/index.html'),
 		protocol: 'file:',
